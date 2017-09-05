@@ -15,20 +15,6 @@ $(document).ready(function() {
 
     var smallScreenToBig = 0;
 
-    // windowSize  = $(window).width();
-
-    // if (windowSize > 563) {
-    //     var backgroundTimer = setTimeout(changeBackground, backgroundDelay);
-    //     $backgroundImages.hide().eq(0).show();
-    //     console.log('The initial if statement has been activated - the first condition (window size > 563)');
-    // } else {
-
-    //     $backgroundImages.hide();
-    //     clearTimeout(backgroundTimer);
-
-    //     console.log('The initial if statement has been activated - the second condition (the window size must be less or equal to 563)');
-    // }
-
     
     $(window).resize(function() {
         clearTimeout(backgroundTimer);

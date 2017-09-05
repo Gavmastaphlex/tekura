@@ -839,6 +839,7 @@ a {
     bottom: 5%;
     left: 20.8%;
     z-index: 3;
+    display:none;
 }
 
 .content-page-container {
